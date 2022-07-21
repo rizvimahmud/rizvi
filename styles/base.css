@@ -1,0 +1,50 @@
+:root {
+  --primary: #0b0b0c;
+
+  --accent-0: #fafafa;
+  --accent-1: #f1f3f5;
+  --accent-2: #dbdbde;
+  --accent-3: #c9c9cd;
+  --accent-4: #b7b7bd;
+  --accent-5: #93939b;
+  --accent-6: #81818b;
+  --accent-7: #616161;
+  --accent-8: #3e3e43;
+  --accent-9: #2d2d31;
+  --accent-10: #1d1d1f;
+
+  --font-sans: "Inter", -apple-system, system-ui, BlinkMacSystemFont,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+[data-theme="dark"] {
+  --primary: #ffffff;
+  --accent-10: #fafafa;
+  --accent-9: #f1f3f5;
+  --accent-8: #dbdbde;
+  --accent-7: #c9c9cd;
+  --accent-6: #b7b7bd;
+  --accent-5: #93939b;
+  --accent-4: #81818b;
+  --accent-3: #616161;
+  --accent-2: #3e3e43;
+  --accent-1: #2d2d31;
+  --accent-0: #1d1d1f;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: var(--font-sans);
+  overscroll-behavior-x: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  background-color: var(--primary);
+}
